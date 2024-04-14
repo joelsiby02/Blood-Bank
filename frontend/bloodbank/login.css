@@ -11,22 +11,22 @@ html {
   .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: #E3E6F3;
+    justify-content: space-between; 
+    padding: 20px 80px; 
+    /* background: #E3E6F3; */
     /* border for navbar */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0); 
     /* for sticky navabr */
-    z-index: 999;
+    /* z-index: 999; */
     position: sticky;
     top: 0;
     left: 0;
     
   }
-  .header .logo {
+  /* .header .logo {
      size-adjust: 10%;
   }
-  
+   */
   .login-box {
     position: absolute;
     top: 60%;
