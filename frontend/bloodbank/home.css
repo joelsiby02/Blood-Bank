@@ -2,16 +2,31 @@ body {
     font-family: "Lato", sans-serif;
   }
   
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px 80px; 
+    /* background: #E3E6F3; */
+    /* border for navbar */
+    box-shadow: 0 5px 15px rgba(0,0,0,0); 
+    /* for sticky navabr */
+    /* z-index: 999; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+  }
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 230px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 150px;
   }
   
   .sidenav a {
@@ -20,14 +35,23 @@ body {
     font-size: 25px;
     color: #818181;
     display: block;
+    padding-top: 20px;
   }
   
   .sidenav a:hover {
     color: #f1f1f1;
+    padding-top: 10px;
+    background: #d65479;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #a6adae,
+                0 0 25px #95a2a2,
+                0 0 50px #7f8c8d,
+                0 0 100px #8b999a;
   }
   
   .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 240px; /* Same as the width of the sidenav */
   }
   
   @media screen and (max-height: 450px) {
@@ -38,8 +62,8 @@ body {
   .gmail-table {
     border: solid 2px #DDEEEE;
     border-collapse: collapse;
-    border-spacing: 0;
-    font: normal 14px Roboto, sans-serif;
+    border-spacing: 100px;
+    font: normal 28px Roboto;
   }
 
   .gmail-table thead th {
