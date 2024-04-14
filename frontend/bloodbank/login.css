@@ -8,8 +8,23 @@ html {
     background: linear-gradient(#fefefe, #ea5555);
   }
   
-  .container {
+  .header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    /* border for navbar */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    /* for sticky navabr */
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+  }
+  .header .logo {
+     size-adjust: 10%;
   }
   
   .login-box {
