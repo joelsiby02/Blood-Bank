@@ -1,0 +1,149 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.list {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    margin: inherit;
+  }
+  
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #370926;
+  }
+  .nav ul li {
+    display: inline-block;
+  }
+  .nav ul li a {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.875rem;
+    display: block;
+    text-decoration: none;
+    padding: 6px 15px;
+  }
+  .nav ul li a:hover {
+    color: #fff;
+  }
+  
+  .section {
+    height: 100%;
+    width: 100%;
+    display: table;
+    pointer-events: none;
+    z-index: 0;
+    -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+    transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+  }
+  .section h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+  }
+  
+  #opos {
+    background: #42113C;
+  }
+  
+  #oneg {
+    background: #618B25;
+  }
+  
+  #abpos {
+    background: #6BD425;
+  }
+
+  #abneg {
+    background: #42113C;
+  }
+
+  #apos {
+    background: #6BD425;
+  }
+
+  #aneg {
+    background: #42113C;
+  }
+ 
+  #bpos {
+    background: #6BD425;
+  }
+
+  #bneg {
+    background: #42113C;
+  }
+ 
+  
+  .a[id="opos"]:target ~ #opos {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .a[id="oneg"]:target ~ #oneg {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  
+  .a[id="abpos"]:target ~ #abpos {
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0, -200%, 0);
+  }
+
+ .a[id="abneg"]:target ~ #abneg {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .a[id="apos"]:target ~ #apos {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  
+  .a[id="aneg"]:target ~ #aneg {
+    -webkit-transform: translate3d(0, -200%, 0);
+    transform: translate3d(0, -200%, 0);
+  }
+
+  .a[id="bpos"]:target ~ #bpos {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .a[id="bneg"]:target ~ #bneg {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }

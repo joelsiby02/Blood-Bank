@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD HUB</title>
+    <link rel="stylesheet" href="donation.css">
+</head>
+<body>
+    <header>
+        <img src="Pics/newname.png" alt="Image loading">
+        <a href="#">LOGOUT</a>
+   </header>
+   <div class="sidenav">
+    <a href="#">HOME</a>
+    <a href="#">REQUESTS</a>
+    <a href="#">DONOR LIST</a>
+    <a href="#">BLOOD LIST</a>
+    <a href="#">DONATION</a>
+    <a href="#">REGISTRATION</a>
+  </div>
+  <div class="main">
+    <div>
+        <h2>#USERNAME</h2>
+        <h3>#USERID</h3>
+    </div>
+    <div>
+        <a>Change password</a>
+        <a>Help</a>
+    </div>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form action="#">
+        <div class="form-group">
+            <label for="name">First Name</label>
+            <input type="text" id="first name" name="name" placeholder="Enter first name">
+            <label for="name">Second Name</label>               
+            <input type="text" id="second name" name="name" placeholder="Enter second name">
+        </div>
+        <div class="form-group">
+            <label for="purpose">Purpose</label>
+            <input list="purpose" id="purpose" name="purpose" placeholder="Select the purpose">
+            <datalist id="purpose">
+                <option value="Voluntery">
+                <option value="Substitute">
+            </datalist>
+            <label for="donor id">Donor Id</label>
+            <input type="text" id="Donor id" name="Donor Id" placeholder="Enter donor id">
+        </div>
+        <div class="form-group">
+            <label for="hospital name">Hospital Name</label>
+            <input type="text" id="hospital name" name="hospital name" placeholder="Enter hospiatal name">
+            <label for="patient name">Patient name</label>
+            <input type="text" id="patient name" name="patient name" placeholder="Enter patient name">
+        </div>
+        <div class="form-group">
+            <label for="date">Birth Date</label>
+            <input type="date" id="date" name="date" placeholder="Enter date">
+            <label for="adhaar">Adhaar Number</label>
+            <input type="number" id="adhaar" name="adhaar" placeholder="Enter adhaar number">
+        </div>
+        <div class="form-group">
+            <label for="remarks">Remarks(Optional)</label>
+            <textarea id="remarks" name="remarks" rows="4" placeholder="Enter donor remarks"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">register</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

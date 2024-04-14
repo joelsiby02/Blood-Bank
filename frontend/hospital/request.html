@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD HUB</title>
+    <link rel="stylesheet" href="request.css">
+</head>
+<body>
+    <header>
+        <img src="Pics/newname.png" alt="Image loading">
+        <a href="#">LOGOUT</a>
+   </header>
+   <div class="sidenav">
+    <a href="#">HOME</a>
+    <a href="#">REQUESTS</a>
+    <a href="#">LIST</a>
+  </div>
+  <div class="main">
+    <div>
+        <h2>#USERNAME</h2>
+        <h3>#USERID</h3>
+    </div>
+    <div>
+        <a>Change password</a>
+        <a>Help</a>
+    </div>
+    <div class="container">
+        <h1>Request</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Patient Name</label>
+                <input type="text" id="patient name" name="name" placeholder="Enter patient name">
+                <label for="blood group">Blood Group</label>               
+                <input type="text" id="blood group" name="blood group" placeholder="Enter blood group">
+            </div>
+            <div class="form-group">
+                <label for="surgical name">Surgical Name</label>
+                <input list="surgical name" id="surgical name" name="surgical name" placeholder="Enter surgical name">
+                <datalist id="surgical name">
+                    <option value="Heart Surgery">
+                    <option value="Accident Operation">
+                    <option value="Neuro Surgery">
+                    <option value="Lung Operation">    
+                </datalist>
+                <label for="adhaar">Adhaar Number</label>
+                <input type="number" id="adhaar" name="adhaar" placeholder="Enter adhaar number">
+            </div>
+            <div class="form-group">
+                <label for="unit">Additional Unit</label>
+                <input type="number" id="RBC" name="RBC" placeholder=".">
+                <input type="number" id="WBC" name="WBC" placeholder=".">
+                <input type="number" id="Platelet" name="Platelet" placeholder=".">
+                <input type="number" id="Plasma" name="Plasma" placeholder=".">
+            </div>
+            <div class="form-group">
+                <label for="name">Standby Name</label>
+                <input type="text" id="name" name="standby name" placeholder="Enter standby name">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number">
+            </div>
+            <div class="form-group">
+                <label for="name">Standby Name(Optional)</label>
+                <input type="text" id="name" name="standby name" placeholder="Enter standby name">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="prefer" placeholder="gender" value="prefer not to say">
+                    <label for="prefer not to say">Prefer not to say</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Request</button>
+            </div>
+        </form>
+    </div>
+  </div>
+</body>
+</html>

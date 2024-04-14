@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD HUB</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <img src="Pics/newname.png" alt="Image loading">
+        <a href="#">LOGOUT</a>
+   </header>
+   <div class="sidenav">
+    <a href="#">HOME</a>
+    <a href="#">REQUESTS</a>
+    <a href="#">DONOR LIST</a>
+    <a href="#">BLOOD LIST</a>
+    <a href="#">DONATION</a>
+    <a href="#">REGISTRATION</a>
+  </div>
+  <div class="main">
+    <div>
+        <h2>#USERNAME</h2>
+        <h3>#USERID</h3>
+    </div>
+    <div>
+        <a>Change password</a>
+        <a>Help</a>
+    </div>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">First Name</label>
+                <input type="text" id="first name" name="name" placeholder="Enter first name">
+                <label for="name">Second Name</label>               
+                <input type="text" id="second name" name="name" placeholder="Enter second name">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number">
+                <label for="bloodgroup">Blood Group</label>
+                <input type="text" id="Blood Group" name="Group" placeholder="Enter blood group">
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Birth Date</label>
+                <input type="date" id="birthdate" name="birthdate" placeholder="Enter date of birth">
+                <label for="adhaar">Adhaar Number</label>
+                <input type="number" id="adhaar" name="adhaar" placeholder="Enter adhaar number">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="prefer" placeholder="gender" value="prefer not to say">
+                    <label for="prefer not to say">Prefer not to say</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="4" placeholder="Enter address"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">register</button>
+            </div>
+        </form>
+    </div>
+  </div> 
+</body>
+</html>
